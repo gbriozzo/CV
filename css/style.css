@@ -1,0 +1,107 @@
+.bg-custom {
+  background-color: #363636 !important;
+}
+
+.font-1 {
+  text-transform: capitalize;
+  font-family: "Asap Condensed", sans-serif;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+body {
+  background-color: #111111;
+  box-sizing: border-box;
+}
+
+.main {
+  border-bottom: 1px solid #F9B857;
+  background-color: #0e0e0e;
+}
+.main li {
+  text-align: end;
+  padding-right: 10px;
+  color: black;
+  opacity: 70%;
+}
+.main li a {
+  color: #F9B857 !important;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.main li:hover {
+  opacity: 90%;
+}
+
+main {
+  margin-top: 5rem;
+}
+main a.anchor {
+  display: block;
+  position: relative;
+  top: -5rem;
+  visibility: hidden;
+}
+
+.accordion-item .accordion-button {
+  background-color: rgba(7, 7, 7, 0.95);
+}
+
+.accordion-button {
+  font-weight: 500;
+}
+.accordion-button.collapsed::after, .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-collapse {
+  background-color: rgba(7, 7, 7, 0.9);
+}
+
+.accordion-body strong {
+  color: #F9B857;
+}
+
+section {
+  background-color: #151515;
+  color: #F2F2F2;
+  opacity: 70%;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+section.border-custom {
+  border: 1px solid rgba(54, 54, 54, 0.4);
+}
+section:hover {
+  opacity: 90% !important;
+}
+section .border-bottom {
+  border-bottom: 1px solid rgba(249, 184, 87, 0.7) !important;
+}
+section .title {
+  color: #F9B857;
+}
+section div .chapt {
+  margin: 0.1rem 0;
+}
+section div .chapt h6, section div .chapt p {
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.card-container {
+  flex: 1 200px;
+  background-color: #151515;
+  padding: 2px 0px 2px 0px;
+}
+
+.card-header {
+  background-color: #070707;
+  color: #F9B857;
+  font-family: "Asap Condensed", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

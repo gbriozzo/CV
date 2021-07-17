@@ -1,0 +1,28 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "Curriculum Vitae en HTML Gustavo Briozzo",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbriozzo/cv_web.git"
+  },
+  "author": "Gustavo Briozzo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbriozzo/cv_web/issues"
+  },
+  "homepage": "https://github.com/gbriozzo/cv_web#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.1",
+    "bootstrap-icons": "^1.5.0",
+    "flag-icon-css": "^3.5.0"
+  },
+  "devDependencies": {
+    "sass": "^1.35.2"
+  }
+}

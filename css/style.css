@@ -72,11 +72,25 @@ section {
   padding: 1rem;
   margin: 2rem 0;
 }
+section p {
+  padding-left: 1rem;
+}
+section p strong {
+  color: #F9B857;
+}
 section.border-custom {
   border: 1px solid rgba(54, 54, 54, 0.4);
 }
 section:hover {
   opacity: 90% !important;
+}
+section .spacing > * {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+section .iwl span {
+  font-size: 1.2em;
+  margin-left: 10px;
 }
 section .border-bottom {
   border-bottom: 1px solid rgba(249, 184, 87, 0.7) !important;
